@@ -42,9 +42,10 @@ public class RotateBlock {
 	 * 
 	 * 
 	 * extra info
-	 * Rotate 90  : Row=>Col, Col(I)=>Row
-	 * Rotate 180 : Row(I)=>Row, Col(I)=>Col. 
-	 * Rotate 270 : Row(I)=>Col, Col=>Row
+	 * (R) means reverse order 
+	 * Rotate 90  : Row=>Col, Col(R)=>Row
+	 * Rotate 180 : Row(R)=>Row, Col(R)=>Col 
+	 * Rotate 270 : Row(R)=>Col, Col=>Row
 	 */
 	public boolean RotateBlock(Angle angle) {		
 		int[][] newBlock = new int[MAX_BLOCKSIZE][MAX_BLOCKSIZE];
