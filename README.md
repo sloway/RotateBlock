@@ -1,6 +1,6 @@
 # RotateBlock
 
-## Rotatation logic for N by N block 
+## Rotation logic for N by N block 
 
 	This function is the core logic for rotation
 	This logic arranges the travel path based on the rotation degree
